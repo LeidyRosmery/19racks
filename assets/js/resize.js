@@ -7,10 +7,7 @@ $(window).load( function() {
 
   }
   else { //desktop
-    document.querySelector('#main.newMainSection > .container > .col-md-12').style.paddingLeft="15px";
-    document.querySelector('#main.newMainSection > .container > .col-md-12').style.paddingRight="15px";
-  
-      console.log("dentro resize");
+    console.log("dentro resize");
       var heights = $(".list-subcat").map(function() {
           return $(this).height();
         }).get(),

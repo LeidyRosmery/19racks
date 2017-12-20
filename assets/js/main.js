@@ -7,6 +7,8 @@ $(document).ready(function() {
 
 });
 
+$('.list-subcat li:last-child').css('border','none');
+
 $('.collapse').on('show.bs.collapse', function() {
 		console.log("abierto");
 
